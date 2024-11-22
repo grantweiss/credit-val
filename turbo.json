@@ -1,10 +1,11 @@
 {
   "pipeline": {
-    "build": {
-      "outputs": ["./client/dist/**", "./server/build/**"]
-    },
     "dev": {
-      "cache": false
+      "cache": false,
+      "outputs": []
+    },
+    "build": {
+      "outputs": ["client/dist/**", "server/build/**"]
     }
   }
 }
