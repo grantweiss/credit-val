@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "start": "node server/build/index.ts"
+    "start": "node server/build/index.js"
   },
   "devDependencies": {
     "turbo": "^1.10.0",
