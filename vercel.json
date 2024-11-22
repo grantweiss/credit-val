@@ -1,4 +1,14 @@
 {
+  "builds": [
+    {
+      "src": "server/build/**",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "client/dist/**",
+      "use": "@vercel/static"
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",

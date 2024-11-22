@@ -54,3 +54,4 @@ coverage/
 .turbo/
 .turbo/repo-state.json
 .turbo/outputs/
+.vercel
