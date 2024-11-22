@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "start": "node server/build/index.js"
+    "start": "node server/build/index.js",
+    "postbuild": "mkdir -p public && cp -R client/dist/* public/"
   },
   "devDependencies": {
     "turbo": "^1.10.0",
