@@ -1,7 +1,7 @@
 {
   "pipeline": {
     "build": {
-      "outputs": ["client/dist/**", "server/build/**"]
+      "outputs": ["./client/dist/**", "./server/build/**"]
     },
     "dev": {
       "cache": false
