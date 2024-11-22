@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node server/build/index.ts"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "typescript": "^5.2.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0"
+  }
+}

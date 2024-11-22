@@ -1,0 +1,56 @@
+# Node modules (applies to all directories)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Turbo repo cache and generated files
+turbo/
+.cache/
+*.lock
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# pnpm files
+.pnpm-debug.log
+.pnpm-store/
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Static builds and temporary files
+client/dist/
+server/build/
+temp/
+tmp/
+
+# Environment variables
+.env
+.env.*.local
+
+# Testing and coverage files
+coverage/
+.nyc_output/
+
+# Turborepo incremental outputs
+.turbo/
+.turbo/repo-state.json
+.turbo/outputs/
